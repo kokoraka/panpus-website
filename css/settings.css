@@ -1,0 +1,38 @@
+@font-face{font-family: "ubuntu_r"; src:url('/media/font/ubuntu_r.ttf');}
+body{background-color: black;font-family: "ubuntu_r";}
+a{color: white; text-decoration: none;}
+a:hover{text-decoration: none; font-weight: bold; color: red}
+a:visited{color: orange}
+.linknavigasibawah{font-size: 16px; font-style: bold}
+.contactclass{border-collapse: collapse; border: 1px white;}
+.navigation{-moz-box-shadow: -5px -5px #FFF; -webkit-box-shadow: -5px -5px #FFF; box-shadow: -5px -5px gray;}
+table.scrollbar thead{display:table; width:100%;}
+table.scrollbar tbody tr{display: table; width:100%;}
+table.scrollbar th{padding:10px; background-color:red; color:#ffffff;}
+table.scrollbar td{padding:5px;}
+table.scrollbar tr:nth-child(odd) {background-color:black;}
+table.scrollbar tr:nth-child(even) {background-color:gray;}
+table.scrollbar tbody{display:block; height:245px; overflow:auto; float:left; width:100%;}
+
+table.download thead{display:table; width:100%;}
+table.download tbody tr{display: table; width:100%;}
+table.download th{padding:10px; background-color:red; color:#ffffff;}
+table.download td{padding:5px;}
+table.download tr:nth-child(odd) {background-color:black;}
+table.download tr:nth-child(even) {background-color:gray;}
+table.download tbody{display:block; height:100px; overflow:auto; float:left; width:100%;}
+
+table.review thead{display:table; width:100%;}
+table.review tbody tr{display: table; width:100%;}
+table.review tbody{display:block; height:200px; overflow:auto; float:left; width:100%;}
+
+table.setup thead{display:table; width:100%;}
+table.setup tbody tr{display: table; width:100%;}
+table.setup th{padding:8px; background-color:red; color:#ffffff;}
+table.setup tbody{display:block; height:100%; overflow:auto; float:left; width:100%;}
+
+table.register th{font-family: "Tahoma"; color:white;}
+table.register td{font-family: "Tahoma"; color:white; text-align:justify;}
+
+table.register_confirmation th{font-family: "Tahoma"; color:white;}
+table.register_confirmation td{font-family: "Tahoma"; color:white; text-align:justify;}
